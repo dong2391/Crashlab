@@ -1,0 +1,4 @@
+<launch>
+<node name="odom" pkg="odometry" type="odom" />
+<node name="motor" pkg="motor" type="motor_node2" />
+</launch>
